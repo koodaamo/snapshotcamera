@@ -1,6 +1,6 @@
-# LitElement JavaScript starter 
+# Camera snapshot web component 
 
-This project includes a sample component using LitElement with JavaScript.
+This project includes a simple component based on LitElement.
 
 ## Setup
 
@@ -12,7 +12,7 @@ npm i
 
 ## Testing
 
-This sample uses Karma, Chai, Mocha, and the open-wc test helpers for testing. See the [open-wc testing documentation](https://open-wc.org/testing/testing.html) for more information.
+This project uses Karma, Chai, Mocha, and the open-wc test helpers for testing. See the [open-wc testing documentation](https://open-wc.org/testing/testing.html) for more information.
 
 Tests can be run with the `test` script:
 
@@ -22,7 +22,7 @@ npm test
 
 ## Dev Server
 
-This sample uses open-wc's [es-dev-server](https://github.com/open-wc/open-wc/tree/master/packages/es-dev-server) for previewing the project without additional build steps. ES dev server handles resolving Node-style "bare" import specifiers, which aren't supported in browsers. It also automatically transpiles JavaScript and adds polyfills to support older browsers.
+This project uses open-wc's [es-dev-server](https://github.com/open-wc/open-wc/tree/master/packages/es-dev-server) for previewing the project without additional build steps. ES dev server handles resolving Node-style "bare" import specifiers, which aren't supported in browsers. It also automatically transpiles JavaScript and adds polyfills to support older browsers.
 
 To run the dev server and open the project in a new browser tab:
 
@@ -34,16 +34,7 @@ There is a development HTML file located at `/dev/index.html` that you can view 
 
 ## Editing
 
-If you use VS Code, we highly reccomend the [lit-plugin extension](https://marketplace.visualstudio.com/items?itemName=runem.lit-plugin), which enables some extremely useful features for lit-html templates:
-  - Syntax highlighting
-  - Type-checking
-  - Code completion
-  - Hover-over docs
-  - Jump to definition
-  - Linting
-  - Quick Fixes
-  
-  The project is setup to reccomend lit-plugin to VS Code users if they don't already have it installed.
+If you use VS Code, we recommend the [lit-plugin extension](https://marketplace.visualstudio.com/items?itemName=runem.lit-plugin). The project is setup to reccomend lit-plugin to VS Code users if they don't already have it installed.
 
 ## Linting
 
@@ -88,7 +79,3 @@ npm run docs:watch
 ```
 
 The site will usually be served at http://localhost:8000.
-
-## More information
-
-See [Get started](https://lit-element.polymer-project.org/guide/start) on the LitElement site for more information.
